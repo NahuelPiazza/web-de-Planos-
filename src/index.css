@@ -21,8 +21,10 @@ header {
   z-index: 100;
 }
 
+
 .imgNav {
-  width: 35px;
+  width: 55px;
+  height: 55px;
   margin-right: 15px;
 }
 
@@ -78,25 +80,28 @@ main {
 
 .Banner {
   background-image: url(./assets/imgBanner.jpg);
-  background-size: cover;  
-  background-color: rgba(153, 153, 153, 0.712);
+  background-size:cover;  
+  background-color: rgba(153, 153, 153, 0.802);
   padding: 3rem;
   text-align: center;
   margin-bottom: 2rem;
+  background-attachment: fixed;
+  
 }
 
 .Banner h1 {
-  color: #000;
-  text-shadow: 0px 0px 4px #0000005b;
+  color: #ffffff;
+  text-shadow: 0px 0px 4px #000000;
   font-size: 2.5rem;
   margin-bottom: 1rem;
 }
 
 .Banner p {
   color: #333;
-  text-shadow: 0px 0px 4px #00000067;
+  text-shadow: 0px 0px 4px #ffffff;
   font-size: 1.2rem;
   margin-bottom: 2rem;
+  font-weight: bold;
 }
 
 .cta-button {
@@ -124,6 +129,7 @@ main {
 h2 {
   color: #000;
   margin-bottom: 1.5rem;
+  font-size: 30px;
 }
 
 .product-grid {
@@ -156,6 +162,28 @@ h2 {
 .product-info p {
   color: #666;
   margin-bottom: 1rem;
+}
+
+#sobre-nosotros {
+  background-color: #ffeeaa22;
+  padding: 25px;
+  box-shadow: 1px 1px 4px #00000056;
+}
+
+#sobre-nosotros h2 {
+  text-align: center;
+}
+
+#sobre-nosotros P {
+  font-size: 18px;
+  text-align: center;
+  margin: 15px;
+}
+
+#sobre-nosotros span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .about p {
